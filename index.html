@@ -29,9 +29,9 @@ html,body{margin:0;height:100%;overflow:hidden;background:#1d2340;touch-action:n
 // 星星點綴（純 CSS，不增加下載量）
 for (let i=0;i<40;i++){const s=document.createElement('div');s.className='star';s.style.left=Math.random()*100+'%';s.style.top=Math.random()*55+'%';s.style.animationDelay=Math.random()*2.4+'s';document.getElementById('load').appendChild(s);}
 const msg=document.getElementById('msg'), fill=document.getElementById('fill');
-const sc=document.createElement('script'); sc.src='Build/3a493a0c428a3a31c8725f81062e1f38.loader.js';
+const sc=document.createElement('script'); sc.src='Build/e510a57b9e6ebf554c44017f2149a39c.loader.js';
 sc.onload=()=>createUnityInstance(document.getElementById('c'),{
-  dataUrl:'Build/dacd2c2a3495c172600ec25eacd58d4a.data.unityweb', frameworkUrl:'Build/759f5ba18f33902c3dbb1797e65f75a8.framework.js.unityweb', codeUrl:'Build/7948711c8db6d3e6e9b6a31faaff9de0.wasm.unityweb',
+  dataUrl:'Build/fd7a5425daafe8f2d4a5209e443d3612.data.unityweb', frameworkUrl:'Build/759f5ba18f33902c3dbb1797e65f75a8.framework.js.unityweb', codeUrl:'Build/bed517e709800a084aaba92f4580e5a5.wasm.unityweb',
   companyName:"LeeRyan1999", productName:"星夜小鎮", productVersion:"1.0",
   devicePixelRatio:Math.min(window.devicePixelRatio||1,2),
   // 檔名帶雜湊，內容不會變 → 永久快取在 IndexedDB，第二次開啟不必重新下載
